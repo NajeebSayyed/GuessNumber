@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#guessField {
+    width: 80%; /* Adjusted for mobile devices */
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+}
+
+#guessSubmit {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#guessSubmit:hover {
+    background-color: #0056b3;
+}
+
+.resultParas {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lastResult {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.lowOrHi {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media screen and (max-width: 768px) {
+    #guessField {
+        width: 100%; /* Full width for mobile devices */
+    }
+
+    #guessSubmit {
+        width: 100%; /* Full width for mobile devices */
+    }
+}
